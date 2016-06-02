@@ -1,0 +1,60 @@
+*{
+	padding: 0;
+	margin:0;
+}
+html,body{
+	height: 100%;
+}
+
+/*@media  (max-device-height : 500px) and (-webkit-min-device-pixel-ratio : 2){
+    #app{
+		display: none;
+	}
+}*/
+
+
+.top-half-bg{
+	background-color: #00bcd4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 50%;
+	width: 100%;
+	z-index: -9999;
+}
+.bottom-half-bg{
+	background-color: #edecec;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 50%;
+	width: 100%;
+	z-index:-9999;
+}
+#app{
+	
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#Form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.form-icon{
+	margin-right: 10px;
+
+
+}
+.SubmitButtonContainer{
+	position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%,-50%);
+	 
+}
